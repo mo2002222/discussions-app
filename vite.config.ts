@@ -3,12 +3,11 @@
 
 import react from '@vitejs/plugin-react';
 import { defineConfig } from 'vite';
-import path from 'path';
 import viteTsconfigPaths from 'vite-tsconfig-paths';
 
 export default defineConfig({
-  plugins: [react()],
-  base: '/discussions-app/',
+  base: './',
+  plugins: [react(), viteTsconfigPaths()],
   server: {
     port: 3000,
   },
@@ -33,9 +32,4 @@ export default defineConfig({
       },
     },
   },
-  resolve: {
-     alias: {
-      '@': path.resolve(__dirname, 'src'),
-    },
-    },
 });

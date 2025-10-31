@@ -15,7 +15,7 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "run-mock-server": "vite-node mock-server.ts | pino-pretty -c",
-    "build": "vite build && copy dist\\index.html dist\\404.html",
+    "build": "vite build && cp dist/index.html dist/404.html",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
