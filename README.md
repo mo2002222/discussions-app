@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React Vite Application
 
 ## Get Started
@@ -28,3 +29,7 @@ Builds the app for production to the `dist` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 See the section about [deployment](https://vitejs.dev/guide/static-deploy) for more information.
+=======
+# discussion-app
+discussion-app
+>>>>>>> 0a9c0439c954112f7fecf0595c2a84e56483eb4e
